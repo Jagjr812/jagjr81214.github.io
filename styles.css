@@ -1,13 +1,10 @@
 body {
-
-button {
-padding: 10px 20px;
-border: none;
-background: gold;
-cursor: pointer;
-font-weight: bold;
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f5f5f5;
 }
 
+/* NAV */
 nav {
 display: flex;
 justify-content: center;
@@ -25,11 +22,13 @@ background: gold;
 color: black;
 }
 
+/* SECTIONS */
 section {
 padding: 50px;
 text-align: center;
 }
 
+/* ROOMS */
 .room-container {
 display: flex;
 justify-content: center;
@@ -45,11 +44,16 @@ width: 250px;
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* SMALLER IMAGES */
 .room img {
 width: 100%;
+max-width: 200px;
+height: 140px;
+object-fit: cover;
 border-radius: 10px;
 }
 
+/* GALLERY */
 .gallery {
 display: flex;
 gap: 10px;
@@ -58,10 +62,13 @@ flex-wrap: wrap;
 }
 
 .gallery img {
-width: 300px;
+width: 200px;
+height: 140px;
+object-fit: cover;
 border-radius: 10px;
 }
 
+/* FORM */
 form {
 display: flex;
 flex-direction: column;
@@ -74,6 +81,15 @@ input, select {
 padding: 10px;
 }
 
+button {
+padding: 10px;
+border: none;
+background: gold;
+cursor: pointer;
+font-weight: bold;
+}
+
+/* FOOTER */
 footer {
 background: #222;
 color: white;
