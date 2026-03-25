@@ -20,4 +20,3 @@ document.getElementById('confirmation').innerHTML = `
 
 this.reset();
 });
-
